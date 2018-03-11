@@ -3,14 +3,14 @@ import socket
 import optparse
 
 
-parser = optparse.OptionParser('usage%prog'+'-user_key <key>'+'-flag <flag> ')
+parser = optparse.OptionParser('usage %prog -u <key> -f <flag>  --host <serverIP> -p <port>')
 
 
-parser.add_option('-u', dest='userkey', help='The user key associated with your user')
-parser.add_option('-f', dest='flag', help='The flag')
-parser.add_option('--host', dest='host', help='Server IP')
-parser.add_option('-p', dest='port', help='Server Port')
-parser.add_option('--points', dest='points', action="store_true", default=False)
+parser.add_option('-u', dest='userkey', help='The user key associated with your user. No username required.')
+parser.add_option('-f', dest='flag', help='The flag. May require "" if on UNIX.')
+parser.add_option('--host', dest='host', help='Server hostname or IP address where flag server is running.')
+parser.add_option('-p', dest='port', help='Specifies port that server is listening on.')
+parser.add_option('--points', dest='points', help='Optional parameter. Retrieves points for specified user. Flag (-f) is ignored.', action="store_true", default=False)
 
 (options,args) = parser.parse_args()
 
