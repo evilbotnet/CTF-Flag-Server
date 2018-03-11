@@ -1,0 +1,96 @@
+{
+  "challenges": [
+    {
+      "name": "win-host-name",
+      "md5": "",
+      "points": 10,
+      "flag": "flag-chckyoself"
+    },
+    {
+      "name": "win-username",
+      "md5": "",
+      "points": 10,
+      "flag": "flag(AlicefromBills)"
+    },
+    {
+      "name": "win-txtdoc",
+      "md5": "",
+      "points": 10,
+      "flag": "flag(isthisreallife)"
+    },
+    {
+      "name": "rdp-registry",
+      "md5": "",
+      "points": 10,
+      "flag": "flag(IamProfoundlyVanilla)"
+    },
+    {
+      "name": "rdp-servicename",
+      "md5": "",
+      "points": 10,
+      "flag": "flag(HisNameisRobertPaulson)"
+    },
+    {
+      "name": "meta-txtdoc",
+      "md5": "",
+      "points": 10,
+      "flag": "flag(thisisyourimagination)"
+    },
+    {
+      "name": "win-programfolder",
+      "md5": "",
+      "points": 10,
+      "flag": "flag(randomprogrambilluses)"
+    }
+  ],
+
+  "users": [
+    {
+      "name": "bob1",
+      "score": 0,
+      "user_key":"alkjv092itg92hf",
+      "completed":[
+        "rdp-servicename",
+        "meta-txtdoc"
+      ]
+    },
+    {
+      "name": "bob2",
+      "score": 0,
+      "user_key":"28fghavnoa9250",
+      "completed":[]
+    },
+    {
+      "name": "bob3",
+      "score": 100,
+      "user_key":"cryptik",
+      "completed":[]
+    },
+    {
+      "name": "bob4",
+      "score": 0,
+      "user_key":"handle_randomnumber_xxxX",
+      "completed":[]
+    },
+    {
+      "name": "bob5",
+      "score": 0,
+      "user_key":"alkjf-239g-29gvu-29vhaskdfl-2hjlkhjv",
+      "completed":[]
+    },
+    {
+      "name": "bob6",
+      "score": 0,
+      "user_key":"1234567890209385",
+      "completed":[]
+    },
+    {
+      "name": "bob7",
+      "score": 0,
+      "user_key":"abcdefghijklmnopqrstuv",
+      "completed":[]
+    }
+  ]
+
+}
+
